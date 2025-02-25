@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.header {
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid black;
+}
+.logo {
+}
+.nav-bar > ul {
+  display: flex;
+  list-style-type: none;
+}
+.nav-bar > ul > li {
+  margin: 20px;
+  padding: 20px;
+}
+.search {
+  padding: ;
+}
+.restauarnt-cards-conatiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rest-card {
+  width: 230px;
+
+  margin: 10px;
+  background-color: lightgrey;
+  padding: 10px;
+}
+.rest-card:hover {
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.card-img {
+  width: 100%;
+  height: 100px;
+}
