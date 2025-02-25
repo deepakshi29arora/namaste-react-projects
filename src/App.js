@@ -23,14 +23,6 @@ const appRouter = createBrowserRouter([
 
 const App = () => {
   return <RouterProvider router={appRouter} />;
-  //   return (
-  //     // <div className="App">
-  //     // <BrowserRouter>
-  //     //   <Routes>
-  //     //     <Route path="/" element={<Header />} />
-  //     //     <Route path="/component" element={<Body />} />
-  //     //   </Routes>
-  //     // </BrowserRouter>
 };
 
 export default App;
