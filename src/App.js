@@ -8,8 +8,6 @@ import { createRoot } from "react-dom/client";
 // import About from "./component/About";
 import Header from "./component/Header";
 
-// import App from "./App";
-
 const appRouter = createBrowserRouter([
   {
     path: "/",
